@@ -174,3 +174,16 @@ async function mostrarResultado() {
 }
 
 mostrarResultado();
+
+// nivell 2 - exercici 5
+
+async function mostrarResult() {
+    try{
+        const resultado = await saludoLento;
+        console.log(resultado)
+    }catch(e){
+        console.log(e)
+    }
+}
+
+mostrarResult()
