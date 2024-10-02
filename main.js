@@ -144,3 +144,17 @@ function processarElement(arr) {
 }
 
 processarElements(frutas, processarElement);
+
+// nivell 3 - exercici 5
+
+const nombre = 'Helena';
+
+function processarCadena(name, callback) {
+    callback(name);
+}
+
+function cadenaEnMajusculas(nombre) {
+    console.log(nombre.toUpperCase());
+}
+
+processarCadena(nombre, cadenaEnMajusculas);
