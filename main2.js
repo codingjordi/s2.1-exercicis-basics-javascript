@@ -81,3 +81,12 @@ let arrNoms = ['Anna', 'Bernat', 'Clara'];
 for (let nom of arrNoms) {
     console.log(nom)
 }
+
+
+// nivell 1 - exercici 3
+
+let arrayNum = [1, 2, 3, 4, 5, 6]; 
+
+const evenNums = arrayNum.filter(num => num % 2 === 0)
+
+console.log(evenNums)
