@@ -72,3 +72,12 @@ console.log('Algun numero es mayor que 10: ' + someGreaterThanTen)
 let noms = ['Anna', 'Bernat', 'Clara'];
 
 noms.forEach(nom => console.log(nom));
+
+
+// nivell 1 - exercici 2
+
+let arrNoms = ['Anna', 'Bernat', 'Clara'];
+
+for (let nom of arrNoms) {
+    console.log(nom)
+}
