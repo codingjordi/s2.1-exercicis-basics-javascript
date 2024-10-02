@@ -128,3 +128,19 @@ function saludar(nom) {
 }
 
 esperarISaludar('Catalina', saludar);
+
+// nivell 2 - exercici 4
+
+const frutas = ['manzana', 'pera', 'limon', 'jengibre', 'tomate']
+
+function processarElements(arr, callback) {
+    callback(arr)
+}
+
+function processarElement(arr) {
+    for(i = 0; i < arr.length; i++) {
+        console.log(`Procesando ${arr[i]}...`)
+    }
+}
+
+processarElements(frutas, processarElement);
