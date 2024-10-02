@@ -205,3 +205,13 @@ const [dolent1, dolent2, ...restaMenjar] = menjar;
 console.log(dolent1)
 console.log(dolent2)
 console.log(restaMenjar)
+
+// nivell 3 - exercici 5
+
+function asignarNums(num1, num2, num3){
+    console.log(num1, num2, num3)
+}
+
+const arrayNums = [1, 2, 3];
+
+asignarNums(...arrayNums);
