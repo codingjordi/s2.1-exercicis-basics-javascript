@@ -102,3 +102,15 @@ function greeting(name) {
 }
 
 processar(greeting, person);
+
+// nivell 1 - exercici 2
+
+function calculadora(callback, num1, num2) {
+    console.log(callback(num1, num2));
+}
+
+function suma(num1, num2) {
+    return num1 + num2;
+}
+
+calculadora(suma, 4, 2);
