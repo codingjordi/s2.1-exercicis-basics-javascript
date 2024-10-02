@@ -90,3 +90,15 @@ let arrayNum = [1, 2, 3, 4, 5, 6];
 const evenNums = arrayNum.filter(num => num % 2 === 0)
 
 console.log(evenNums)
+
+// nivell 2 - exercici 4
+
+let obj = { 
+    nom: 'Ona', 
+    edat: 25, 
+    ciutat: 'Barcelona' 
+};
+
+for (const key in obj) {
+    console.log(`${key}: ${obj[key]}`);
+}
