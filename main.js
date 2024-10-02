@@ -27,3 +27,14 @@ class Person {
 const ismael = new Person('Ismael');
 
 ismael.greeting();
+
+// nivell 2 - exercici 4
+
+function printNumbers(arr) {
+    for(i = 0; i < arr.length; i++) {
+        const printNumber = () =>  console.log(arr[i]);
+        printNumber();
+    }
+}
+
+printNumbers([1, 2, 3]);
