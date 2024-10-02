@@ -126,3 +126,17 @@ for(nombre of nombres) {
     index++;
 }
 
+
+
+
+
+// Exercici 1.7: Promises & Async/Await
+
+// nivell 1 - exercici 1
+
+const saludoLento = new Promise ((resolve) => {
+    setTimeout(() => {
+        resolve('Hola, món')
+    }, 2000)
+    
+})
