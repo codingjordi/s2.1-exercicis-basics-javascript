@@ -44,3 +44,10 @@ printNumbers([1, 2, 3]);
 const delayedMessage = setTimeout(() => {
     console.log('Perdón por el retraso');
 }, 3000);
+
+// 1.2 operador ternari
+
+// nivell 1 - exercici 1
+function potConduir(edat) {
+    (edat >= 18) ? console.log('Pots conduir') : console.log('No pots conduir');
+}
