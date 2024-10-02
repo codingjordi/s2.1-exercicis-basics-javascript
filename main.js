@@ -215,3 +215,25 @@ function asignarNums(num1, num2, num3){
 const arrayNums = [1, 2, 3];
 
 asignarNums(...arrayNums);
+
+// nivell 3 - exericici 6
+
+const cotxe = {
+    rodes: 4,
+    motors: 1
+}
+
+const taula = {
+    potes: 2,
+    material: 'vidre'
+    
+}
+
+const nou = {
+    ...cotxe,
+    ...taula
+}
+
+console.log(nou)
+
+
