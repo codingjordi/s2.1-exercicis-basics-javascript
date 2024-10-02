@@ -114,3 +114,17 @@ function suma(num1, num2) {
 }
 
 calculadora(suma, 4, 2);
+
+// nivell 2 - exercici 3
+
+function esperarISaludar(nom, callback) {
+    setTimeout(() => {
+        callback(nom)
+    }, 2000)
+}
+
+function saludar(nom) {
+    console.log(`Hola, ${nom}!`)
+}
+
+esperarISaludar('Catalina', saludar);
