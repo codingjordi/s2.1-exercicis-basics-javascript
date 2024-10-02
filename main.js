@@ -51,3 +51,13 @@ const delayedMessage = setTimeout(() => {
 function potConduir(edat) {
     (edat >= 18) ? console.log('Pots conduir') : console.log('No pots conduir');
 }
+
+potConduir(20);
+
+// nivell 1 - exercici 2
+
+function graterNum(num1, num2) {
+    (num1 > num2) ? console.log(`${num1} és més gran que ${num2}`) : console.log(`${num2} és més gran que ${num1}`); 
+}
+
+graterNum(1, 5);
