@@ -75,3 +75,13 @@ function trobarMaxim(a, b, c) {
 }
 
 trobarMaxim(1, 2, 3);
+
+// nivell 3 - exercici 4
+
+function parOImpart(arr) {
+    arr.forEach(element => {
+        ((element % 2 === 0) ? console.log(element + ' és parell') : console.log(element + ' és imparell') )
+    });    
+}
+
+parOImpart([1, 2, 3, 4, 5]);
