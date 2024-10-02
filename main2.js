@@ -164,3 +164,13 @@ const salutacioLenta = new Promise ((resolve, reject) => {
 
 salutacioLenta.then((mensaje) => console.log(mensaje))
               .catch((e) => console.log('Error: ' + e))
+
+
+// nivell 1 - exercici 4
+
+async function mostrarResultado() {
+    const resultado = await saludoLento;
+    console.log(resultado)
+}
+
+mostrarResultado();
