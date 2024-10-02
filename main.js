@@ -38,3 +38,9 @@ function printNumbers(arr) {
 }
 
 printNumbers([1, 2, 3]);
+
+// nivell 3 - exerici 5
+
+const delayedMessage = setTimeout(() => {
+    console.log('Perdón por el retraso');
+}, 3000);
