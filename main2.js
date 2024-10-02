@@ -147,3 +147,20 @@ const saludoLento = new Promise ((resolve) => {
 saludoLento.then((mensaje) => {
     console.log(mensaje)
 })
+
+// nivell 1 - exercici 3
+
+const input = 'Hola'
+
+const salutacioLenta = new Promise ((resolve, reject) => {
+    setTimeout(() => {
+        if(input === 'Hola') {
+            resolve(input)
+        } else {
+            reject('Wrong input :-(')
+        }
+    })
+})
+
+salutacioLenta.then((mensaje) => console.log(mensaje))
+              .catch((e) => console.log('Error: ' + e))
