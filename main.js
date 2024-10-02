@@ -85,3 +85,20 @@ function parOImpart(arr) {
 }
 
 parOImpart([1, 2, 3, 4, 5]);
+
+
+//1.3 callbacks
+
+// nivell 1- exercici 1
+
+let person = 'Paco';
+
+function processar(callback, name) {
+    callback(name);
+}
+
+function greeting(name) {
+    return console.log(`Hi, ${name}`);
+}
+
+processar(greeting, person);
