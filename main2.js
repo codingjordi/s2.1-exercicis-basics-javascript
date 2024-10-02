@@ -187,3 +187,26 @@ async function mostrarResult() {
 }
 
 mostrarResult()
+
+
+// nivell 3 - exercici 6
+
+const missatgeDosSegons = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        resolve('Aquest misatge ha trigat 2 segons en carregar-se')
+    }, 2000);
+})
+
+const missatgeTresSegons = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        resolve('Aquest misatge ha trigat 3 segons en carregar-se')
+    }, 3000);
+})
+
+Promise.all([missatgeDosSegons, missatgeTresSegons])
+    .then((results) => {
+        console.log(results)
+    })
+    .catch((error) => {
+        console.log(error)
+    })
