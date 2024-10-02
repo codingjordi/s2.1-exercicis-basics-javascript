@@ -195,3 +195,13 @@ objecte2.nom = 'Pere';
 console.log(objecte1)
 console.log(objecte2)
 console.log(objecte1)
+
+// nivell 2 - exercici 4
+
+const menjar = ['galeta', 'xocolata', 'platan', 'poma', 'préssec', 'mango'];
+
+const [dolent1, dolent2, ...restaMenjar] = menjar;
+
+console.log(dolent1)
+console.log(dolent2)
+console.log(restaMenjar)
