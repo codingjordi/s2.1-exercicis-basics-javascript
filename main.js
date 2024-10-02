@@ -178,3 +178,20 @@ function suma(...nombres) {
 }
 
 console.log(suma(...numeros));
+
+// nivell 2 - exercici 3
+
+const objecte1 = {
+    nom: 'Ana',
+    edat: 19,
+}
+
+const objecte2 = {
+    ...objecte1
+}
+
+objecte2.nom = 'Pere';
+
+console.log(objecte1)
+console.log(objecte2)
+console.log(objecte1)
