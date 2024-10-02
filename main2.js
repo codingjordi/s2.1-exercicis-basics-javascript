@@ -22,3 +22,13 @@ const evenNumbers = arrayNumbers.filter((num) => {
 })
 
 console.log(evenNumbers)
+
+// nivell 1 - exercici 3
+
+const arrayNumeros = [1, 10 , 8, 11];
+
+const greaterThanTen = arrayNumeros.find((num) => {
+    return num > 10;
+})
+
+console.log(greaterThanTen)
