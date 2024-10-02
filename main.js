@@ -61,3 +61,17 @@ function graterNum(num1, num2) {
 }
 
 graterNum(1, 5);
+
+// nivell 2 - exercici 3
+
+function sortNumber(num){
+    (num <= 0) ? ((num < 0) ? console.log('Negatiu') : console.log('Zero')) : console.log('Positiu')
+}
+
+sortNumber(1);
+
+function trobarMaxim(a, b, c) {
+    (a > b) ? ((a > c) ? console.log(`${a} és el nombre més gran`) : console.log(`${c} és el nombre més gran`)) : ((b > c) ? console.log(`${b} és el nombre més gran`) : console.log(`${c} és el nombre més gran`))
+}
+
+trobarMaxim(1, 2, 3);
