@@ -158,3 +158,13 @@ function cadenaEnMajusculas(nombre) {
 }
 
 processarCadena(nombre, cadenaEnMajusculas);
+
+// exercici 1.4 - rest & spread operators
+
+// nivell 1 - exercici 1
+
+const array1 = ['Pere', 'Ahmed', 'Maria']
+const array2 = ['Jordi', 'James', 'Marina']
+const array3 = [...array1, ...array2]
+
+console.log(array3);
