@@ -60,3 +60,15 @@ const someGreaterThanTen = arrayNumberos.some(num => num > 10)
 console.log('Todos los numeros son mayor que 10: ' + allGreaterThanTen)
 
 console.log('Algun numero es mayor que 10: ' + someGreaterThanTen)
+
+
+
+
+
+// Exercici 1.6: Array loops
+
+// nivell 1 - exercici 1
+
+let noms = ['Anna', 'Bernat', 'Clara'];
+
+noms.forEach(nom => console.log(nom));
