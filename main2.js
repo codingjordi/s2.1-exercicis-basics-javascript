@@ -48,3 +48,15 @@ const arrNumbers = [ 1, 3, 7, 10 ,15, 17, 11, 5, 8, 12, 9 ]
 const result = arrNumbers.filter(num => num >= 10).map(num => num * 2).reduce((acc, num) => acc + num, 0)
 
 console.log(result)
+
+// nivell 3 - exercici 6
+
+const arrayNumberos = [11, 12, 13, 14]
+
+const allGreaterThanTen = arrayNumberos.every(num => num > 10)
+
+const someGreaterThanTen = arrayNumberos.some(num => num > 10)
+
+console.log('Todos los numeros son mayor que 10: ' + allGreaterThanTen)
+
+console.log('Algun numero es mayor que 10: ' + someGreaterThanTen)
