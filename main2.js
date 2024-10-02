@@ -12,3 +12,13 @@ numbers.map((num) => {
 
 console.log('Numeros al cuadrado: ' + squareNumbers)
 console.log('Array original: ' + numbers)
+
+// nivell 1 - exercici 2
+
+const arrayNumbers = [1, 2, 3, 4];
+
+const evenNumbers = arrayNumbers.filter((num) => {
+    return num % 2 == 0
+})
+
+console.log(evenNumbers)
