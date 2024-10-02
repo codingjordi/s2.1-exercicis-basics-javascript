@@ -32,3 +32,11 @@ const greaterThanTen = arrayNumeros.find((num) => {
 })
 
 console.log(greaterThanTen)
+
+// nivell 1 - exercici 4
+
+const arrNumeros = [13, 7, 8, 21]
+
+const sumaNumeros = arrNumeros.reduce((acc, num) => acc + num, 0)
+
+console.log(sumaNumeros);
