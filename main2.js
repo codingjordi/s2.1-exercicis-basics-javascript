@@ -140,3 +140,10 @@ const saludoLento = new Promise ((resolve) => {
     }, 2000)
     
 })
+
+
+// nivell 1 - exercici 2
+
+saludoLento.then((mensaje) => {
+    console.log(mensaje)
+})
