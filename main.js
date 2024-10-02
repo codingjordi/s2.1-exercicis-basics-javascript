@@ -168,3 +168,13 @@ const array2 = ['Jordi', 'James', 'Marina']
 const array3 = [...array1, ...array2]
 
 console.log(array3);
+
+// nivell 1 - exercici 2
+
+const numeros = [2, 3, 4, 1];
+
+function suma(...nombres) {
+    return nombres.reduce((acc, nombre) => acc + nombre, 0)
+}
+
+console.log(suma(...numeros));
