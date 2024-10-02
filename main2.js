@@ -114,3 +114,15 @@ for(num of numberos) {
     }
 }
 
+//nivell 3 - exercici 6
+
+let nombres = ['Anna', 'Bernat', 'Clara']
+
+let index = 0;
+
+
+for(nombre of nombres) {
+    console.log(`Index: ${index}, nom: ${nombre}`);
+    index++;
+}
+
