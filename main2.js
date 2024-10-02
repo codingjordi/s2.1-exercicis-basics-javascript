@@ -102,3 +102,15 @@ let obj = {
 for (const key in obj) {
     console.log(`${key}: ${obj[key]}`);
 }
+
+// nivell 2 - exercici 5
+
+let numberos = [1, 2, 3, 4, 5, 6]
+
+for(num of numberos) {
+    console.log(num)
+    if (num === 5) {
+        break;
+    }
+}
+
